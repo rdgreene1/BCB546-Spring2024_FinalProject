@@ -1,5 +1,9 @@
 # Final Project
 
+## Group Members
+
+Kiara Kappelmann, Tae-Chun Park, Panchali Chakraborty, Maliha Jahan, Sharmistha Goswami, Russell Greene
+
 ## Original Paper
 
 We chose to re-create the data from the paper found here: <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0087628>

@@ -4,6 +4,8 @@
 
 ## TL;DR : The authors used this study as a proof-of-concept for single kernel ICP-MS testing to analyze the ionome of the maize plant. They dissected this question by asking first where areas of confounding could occur, and proceeded to answer 1) Is single kernel ICP-MS testing confounded by genotypic differences, the environment, or the GxE interaction? 2) Does the kernel location on the cob confound the ICP-MS results? 3) Does the organic composition (sugary lines of corn) confound the ICP-MS testing? 4) Is the single kernel ICP-MS approach robust for QTL studies?
 
+## R was the programming language used to re-create all the plots. 
+
 ## Figure 1 - Mg25 & Cd111 Scatter Plot
 
 The first figure is a visualization of the mean concentrations for two (Mg25 and Cd111) of the twenty elements for 23 of the 26 genotypes across the 2010 and 2011 sampling years. This figure is a way to visualize the significant correlation in element concentration across the two sampling years.

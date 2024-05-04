@@ -1,0 +1,23 @@
+# Load the necessary library
+library(ggplot2)
+
+# Data for heritability of different elements
+elements <- c("Weight", "B", "Na", "Mg", "Al", "P", "S", "K", "Ca", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "As", "Se", "Rb", "Sr", "Mo", "Cd")
+heritability_2010 <- c(NA, 0.63, 0.28, 0.81, 0.3, 0.81, 0.81, 0.65, 0.6, 0.78, 0.74, 0.5, 0.6, 0.84, 0.81, 0.66, 0.47, 0.54, 0.53, 0.6, 0.75)
+heritability_2011 <- c(NA, 0.56, 0.52, 0.84, 0.43, 0.71, 0.61, 0.65, 0.69, 0.71, 0.8, 0.54, 0.58, 0.86, 0.83, 0.62, 0.28, 0.64, 0.57, 0.63, 0.9)
+heritability_combined <- c(0.53, 0.37, 0.12, 0.73, 0.12, 0.38, 0.55, 0.46, 0.5, 0.54, 0.7, 0.5, 0.39, 0.77, 0.67, 0.52, 0.25, 0.32, 0.31, 0.55, 0.79)
+
+# Create a data frame
+data <- data.frame(Element = rep(elements, each = 3),
+                   Heritability = c(heritability_2010, heritability_2011, heritability_combined),
+                   Year = rep(c("2010", "2011", "Combined"), times = length(elements)))
+
+# Plotting with adjusted bar width and spacing
+ggplot(data, aes(x = Element, y = Heritability, fill = Year)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 1.0), width = 0.45) + # Increased bar width and adjusted dodge
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) +
+  labs(title = "Heritability of Elements for 2010, 2011, and Combined",
+       x = "Element",
+       y = "Heritability") +
+  scale_fill_brewer(palette = "Set1")  # Using a color palette that is color-blind friendly
+

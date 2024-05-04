@@ -23,3 +23,13 @@ We had the raw data for the paper, so I first had to remove outlier data using a
 #### 3) Other potential markers: The window for other potential markers nearest the QTL is promising in the fact that they are relatively close to one another, but the marker from the paper is not within the potential QTL.
 
 ### Table 4 TL;DR: The pictures look nice and near the QTL, but I think there are large issues from not having the marker positions. I think it may be coincidence that the marker I found is near the QTL marker reported in the paper. For annotated scripts and an additional ReadMe for Table/Figures 4, please look under the `Code` folder.
+
+## Figure 3 - boxplots of effect of su on Ca and Zn acculation
+
+One of the things the authors wanted to see was the composition of the organic component of the seeds. Because elements are not uniformly distributed throughout the seeds. Some element concentrate in the embryo and others concentrate in the maternal of the pericarp and emdosperm. To do that, they compared the calcium and zinc contents in sugary corn which is known as sweet corn and wild type corn. Sugary is a key step in starch biosynthesis. As sugary kernels mature and dehydrate, they shrink, losing more stored carbon than wild type kernels, and can possibly lose water soluble ions.
+
+We had the raw dataset for the paper. And the paper provides geneID for lines they selected for comparison of Ca and Zn contents between sugary and wild type kernels. However, due to unavailability of information on the 7 selected lines, I did 2 similar analysis instead of that. 1) comparision the Ca and Zn contents between the entire su and wild type, 2) involved in randomly selecting 7 lines, and comparing those contents between two groups.
+
+#### 1) the first analysis: this analysis was to compare Ca and Zn contents between su and wild type kernels. there looks a significant difference in the mean of Ca content between two groups. While the Zn content seems to show no differents. 
+
+#### 2) the second analysis: To do this, one of 4 lines with raw dataset was filtered and divided into 7 groups like the paper. The second analysis had similar patterns like the paper and the first analysis. In the both analysis, the Ca content in sugary corn was higher than in the wild type corn, while the Zn content was similar. I think it seems that the sugary mutant may influence the starch synthesis process somehow and leading to the differences in Ca and Zn contents. 

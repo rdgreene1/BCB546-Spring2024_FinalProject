@@ -18,6 +18,9 @@ The original data files can be found in the `Data` folder. These files were used
 
 All the code we used can be found in `Code` folder.
 
+### Table 1
+The definitive code for producing bar plot from Table 1 is located in the 'Table 1_1.Rmd' and 'Table 1_2.Rmd' and 'Table 1_1.R' and 'Table 1_2.R' file.
+
 ### Figure 1
 
 The final code used to generate figure 1 can be found in the `Figure1.Rmd` file. The `Figure1_FinalProject.R` file contains the crude code troubleshooting that was used to generate the final .Rmd file. The `Figure1.Rmd` file contains all the descriptions of the code in markdown text and how the data was formatted to create figure 1. 
@@ -40,6 +43,8 @@ The code used to generate figure 3 can be found in the Code folder. There are tw
 ## Visualizations
 
 Final figures can be found in the `Visualizations` folder. 
+### Table 1
+There are 2 figures (bar plot) generated from the data of Table 1. 'Table 1-Heritability.png'which includes the narrow sense haritability for each element in 2010, 2011 and combined.'Table 1- G, Y, GxY.png' showed the significant effect of genotype, environment and genotype x environment effect on ionome accumulation in maize karnel. 
 
 ### Figure 1
 

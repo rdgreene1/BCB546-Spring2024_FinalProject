@@ -25,7 +25,7 @@ The final code used to generate figure 1 can be found in the `Figure1.Rmd` file.
 The final code used to generate "Fig_2_elemental_accumulation_plot_all_20.png" and "Fig_2_elemental_accumulation_plot_7significant.png" can be found in `Fig_2_all20_elements.R` and `Fig_2_7significant_elememts.Rmd` file respectively
 
 ## Table 3
-The final code used to generate Table3_figure can be found in the 'Table3_figure_codes.Rmd'. The Table3_figure_codes.r file contains the crude code troubleshooting that was used to generate the Table3_figure_codes.Rmd the which contains all the descriptions of the code in markdown text.
+The final code used to generate Table3_figure can be found in the `Table3_figure_codes.Rmd`. The `Table3_figure_codes.r` file contains the raw code that was used to generate the Table3_figure_codes.Rmd which contains all the descriptions of the code in markdown text.
 
 ### Table 4
 

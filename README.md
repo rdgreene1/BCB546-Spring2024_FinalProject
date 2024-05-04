@@ -49,6 +49,8 @@ The final file for figure 1 is the `Figure1.png` file. An additional figure was 
 ### Figure2
 The original Figure 2 from the paper was reproduced and named "Fig_2_elemental_accumulation_plot_7significant.png". This plot includes all 7 elements for which accumulation of the effect of position within the cob was significant. There is an additional figure named "Fig_2_elemental_accumulation_plot_all_20.png," which includes all 20 elements on which it was tested.
 
+## Table3_figure
+The final file for Table3 figure is the `Table3_figure.png` file given in the Visualization folder.
 
 ### Figures from Table 4
 There are three figures generated from table 4. `Table4_QTL_ScanChr1` is a QTL scan of chromosome 1. `Table4_QTL_effect_MarkerFromAnalysis` is a visualization depicting the effect of the QTL on the mean Selenium phenotype when using the marker from the upstream analysis. `Table4_QTL_effect_MarkerFromPaper` is a visualization depicting the effect of the QTL on the mean Selenium phenotype when using the marker that was reported in the paper.

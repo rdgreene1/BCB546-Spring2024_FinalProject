@@ -21,6 +21,8 @@ All the code we used can be found in `Code` folder.
 ### Figure 1
 
 The final code used to generate figure 1 can be found in the `Figure1.Rmd` file. The `Figure1_FinalProject.R` file contains the crude code troubleshooting that was used to generate the final .Rmd file. The `Figure1.Rmd` file contains all the descriptions of the code in markdown text and how the data was formatted to create figure 1. 
+### Figure 2
+The final code used to generate "Fig_2_elemental_accumulation_plot_all_20.png" and "Fig_2_elemental_accumulation_plot_7significant.png" can be found in `Fig_2_all20_elements.R` and `Fig_2_7significant_elememts.Rmd` file respectively
 
 ## Table 3
 The final code used to generate Table3_figure can be found in the 'Table3_figure_codes.Rmd'. The Table3_figure_codes.r file contains the crude code troubleshooting that was used to generate the Table3_figure_codes.Rmd the which contains all the descriptions of the code in markdown text.
